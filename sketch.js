@@ -18,7 +18,7 @@ function draw() {
 
   moon(100, 100, r, g, b, 15);
    fill(20);
-  ellipse(mouseX, mouseY, 300, 300);
+  // ellipse(mouseX, mouseY, 300, 300);
   // fill(r, g, b);
   // ellipse(mouseX+50, mouseY, 300, 300);
   // fill(20);
