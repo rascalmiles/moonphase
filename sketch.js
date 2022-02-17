@@ -2,6 +2,7 @@
 let r = 96;
 let g = 81;
 let b = 196;
+let phase = 0;
 
 function setup() {
   createCanvas(800, 800);
@@ -10,13 +11,14 @@ function setup() {
 function draw() {
   newColor = color(96, 81, 196);
   background(0, 0, 0);
-  
+  phase+=0.1;
+  phase=phase%31;
 
   // shapeGroup(0, 0, 0, 255, 0);
   // shapeGroup(100, 100, r, g, b);
   // shapeGroup(200, 200, 20, 60, 100);
 
-  moon(100, 100, r, g, b, 15);
+  moon(100, 100, r, g, b, phase);
    fill(20);
   // ellipse(mouseX, mouseY, 300, 300);
   // fill(r, g, b);
