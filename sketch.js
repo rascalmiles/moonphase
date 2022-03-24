@@ -92,5 +92,5 @@ function draw() {
   line(shoulderrX, (shoulderrY- d), shoulderrX, 0);
   line(elbowlX, (elbowlY- d), elbowlX, 0);
   line(elbowrX, (elbowrY- d), elbowrX, 0);
-  tint(0, 153, 204, 255);
+  tint(0, 100, 100, 240);
 }
