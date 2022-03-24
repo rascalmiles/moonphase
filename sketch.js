@@ -72,7 +72,7 @@ function gotPoses(poses) {
 function modelReady() {
   console.log('modelReady');
 }
-
+ 
 function draw() {
   background(220);
   image(video, 0, 0);
